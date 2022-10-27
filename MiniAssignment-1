@@ -1,0 +1,28 @@
+ Absolute and Relative Xpath
+●	PHPTRAVLES Logo
+/html/body/header/div/div/div/div/div/div[1]/a/img
+//img[@alt='logo']
+
+●	Hotels
+/html/body/header/div/div/div/div/div/div[2]/div/div[1]/nav/ul/li[1]/a
+//a[@class='active_hotels waves-effect']
+
+●	Flights 
+/html/body/header/div/div/div/div/div/div[2]/div/div[1]/nav/ul/li[3]/a
+//a[@class='active_flights waves-effects']
+
+●	Tours
+/html/body/section[1]/div/div/div/div/div[2]/ul/li[3]/button/span[2]/span
+//span[@class='active_tours waves-effect']
+
+●	Company
+/html/body/header/div/div/div/div/div/div[2]/div/div[1]/nav/ul/li[8]/a
+//a[@class=’waves-effect’][@href='company']
+
+●	Signup Btn
+/html/body/header/div/div/div/div/div/div[2]/div/div[2]/div[3]/div/ul/li[2]/a
+//a[@class='dropdown-item waves-effect']
+
+●	Login Btn
+/html/body/header/div/div/div/div/div/div[2]/div/div[2]/div[3]/div/ul/li[1]/a
+//a[@class='dropdown-item waves-effect']
